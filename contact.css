@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url('contact-background.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(66, 153, 66)
+}
+.contact-section{
+    height: 90vh;
+    width: 40vw;
+    /* border: 1px solid black; */
+    margin-left: 29rem;
+}
+.contact-img{
+    display: flex;
+    justify-content: center;
+}
+.contact-form{
+    height: 60vh;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input{
+    width: 20rem;
+    height: 5vh;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+}
+textarea{
+    border-radius: 0.5rem;
+    border: 1px solid black;
+}
+input:hover{
+    filter: drop-shadow(3px 3px 5px rgb(127, 215, 250));
+}
+textarea:hover{
+    filter: drop-shadow(3px 3px 5px rgb(127, 215, 250));
+}
+.button{
+    background-color: cadetblue;
+    color: white;
+    font-size: x-large;
+    border-radius: 20rem;
+    width: 10rem;
+    margin-left: 5rem;
+}
+.button:hover{
+    transform: scale(1.08);
+    filter: drop-shadow(3px 3px 5px black);
+}
